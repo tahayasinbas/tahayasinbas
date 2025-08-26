@@ -1,9 +1,7 @@
 <h1 align="center">Merhaba 👋, Ben Taha Yasin Baş</h1>
 <h3 align="center">💻 Backend & Automation Developer • 🧠 OSINT & Scraping Enthusiast</h3>
 
-<p align="center">
-  <em>"Kod, verinin gizli hikayesini anlatmaya araçtır."</em>
-</p>
+
 
 ---
 
