@@ -16,9 +16,12 @@ on:
 jobs:
   generate:
     runs-on: ubuntu-latest
-
     steps:
-      # Kullanıcı katkı grafiğinden SVG animasyonu oluştur
+      # Checkout repo
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      # Generate contribution grid snake
       - name: Generate github-contribution-grid-snake.svg
         uses: Platane/snk/svg-only@v3
         with:
@@ -29,11 +32,20 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      # SVG çıktısını output branch'ine gönder
-      - name: Push github-contribution-grid-snake.svg to the output branch
-        uses: crazy-max/ghaction-github-pages@v3.1.0
-        with:
-          target_branch: output
-          build_dir: dist
+      # Setup git for pushing to output branch
+      - name: Configure Git
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+
+      # Create output branch if it doesn't exist and push files
+      - name: Push to output branch
+        run: |
+          git fetch origin output || git checkout -b output
+          mkdir -p dist
+          cp dist/* dist/
+          git add dist/
+          git commit -m "Update GitHub contribution grid snake" || echo "No changes to commit"
+          git push origin output
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
