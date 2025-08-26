@@ -42,9 +42,12 @@ jobs:
       - name: Push to output branch
         run: |
           git checkout -b output || git checkout output
-          git add dist/
+          git mv dist/github-contribution-grid-snake.svg github-contribution-grid-snake.svg
+          git mv dist/github-contribution-grid-snake-dark.svg github-contribution-grid-snake-dark.svg
+          git add github-contribution-grid-snake*.svg
           git commit -m "Update GitHub contribution grid snake" || echo "No changes to commit"
           git push origin output --force
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
 
