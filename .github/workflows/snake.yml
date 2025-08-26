@@ -41,13 +41,21 @@ jobs:
       # Create output branch if it doesn't exist and push files
       - name: Push to output branch
         run: |
+          # output branch yoksa oluştur
           git checkout -b output || git checkout output
-          git mv dist/github-contribution-grid-snake.svg github-contribution-grid-snake.svg
-          git mv dist/github-contribution-grid-snake-dark.svg github-contribution-grid-snake-dark.svg
-          git add github-contribution-grid-snake*.svg
+      
+          # Dosyaları branch köküne kopyala
+          cp dist/github-contribution-grid-snake.svg github-contribution-grid-snake.svg
+          cp dist/github-contribution-grid-snake-dark.svg github-contribution-grid-snake-dark.svg
+      
+          # Git'e ekle ve commit yap
+          git add github-contribution-grid-snake.svg github-contribution-grid-snake-dark.svg
           git commit -m "Update GitHub contribution grid snake" || echo "No changes to commit"
+          
+          # Push et
           git push origin output --force
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
 
 
