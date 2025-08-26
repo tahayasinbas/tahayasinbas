@@ -1,28 +1,27 @@
 <h1 align="center">Merhaba 👋, Ben Taha Yasin Baş</h1>
 <h3 align="center">💻 Backend & Automation Developer • 🧠 OSINT & Scraping Enthusiast</h3>
 
+---
 
+## ​​​​Hakkımda
+- Bilişim Sistemleri Mühendisliği öğrencisiyim.  
+- Docker, Django, Celery, Redis gibi modern backend ve görev yönetimi teknolojileri ile çalışıyorum.  
+- Web Scraping (Selenium, Scrapy), OSINT araçları ve otomasyon sistemleri üzerine yoğunlaşıyorum.  
+- Masaüstü uygulamalarında C# ve Tkinter ile deneyimliyim.  
+- Makine öğrenmesi konusunda proje yapmadım ancak **sınıflandırma, regresyon ve veri görselleştirme** gibi temel konularda bilgi sahibiyim.  
+- Şu anda dağıtık sistemler ve veri odaklı uygulamaları öğreniyorum.
 
 ---
 
-## ​​​​ Hakkımda
--  Bilişim Sistemleri Mühendisliği öğrencisiyim.
--  Docker, Django, Celery, Redis gibi modern backend ve görev yönetimi teknolojileri ile çalışıyorum.
--  Web Scraping (Selenium, Scrapy), OSINT araçları ve otomasyon sistemleri üzerine yoğunlaşıyorum.
--  Masaüstü uygulamalarında C# ve Tkinter ile deneyimliyim.
--  Şu anda dağıtık sistemler ve veri odaklı AI uygulamaları öğreniyorum.
-
----
-
-##  Kullandığım Teknolojiler
+## Kullandığım Teknolojiler
 
 | Backend & Otomasyon     | Web Scraping & OSINT            | Masaüstü & Görüntü İşleme | Altyapı & Araçlar         |
-|-------------------------|----------------------------------|----------------------------|---------------------------|
+|-------------------------|--------------------------------|----------------------------|---------------------------|
 | Docker, Django, Celery, Redis | Selenium, Scrapy, OSINT frameworks | C#, Tkinter, Görsel algoritmalar | Git, Linux           |
 
 ---
 
-##  Öne Çıkan Projelerim
+## Öne Çıkan Projelerim
 
 | Proje | Açıklama |
 |-------|----------|
@@ -35,13 +34,12 @@
 
 ---
 
-##  Bağlantılarım
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/username/)  
-
+## Bağlantılarım
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/taha-yasin-baş)  
 
 ---
 
-##  GitHub İstatistiklerim
+## GitHub İstatistiklerim
 <div align="center">
   <img src="http://github-profile-summary-cards.vercel.app/api/cards/stats?username=tahayasinbas&theme=2077" height="130em" />
   <img src="http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=tahayasinbas&theme=2077" height="130em" />
@@ -56,9 +54,3 @@
   <source media="(prefers-color-scheme: light)" srcset="https://tahayasinbas.github.io/tahayasinbas/github-contribution-grid-snake.svg">
   <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/tahayasinbas/tahayasinbas/output/github-contribution-grid-snake.svg">
 </picture>
-
-
-
-
-
-
