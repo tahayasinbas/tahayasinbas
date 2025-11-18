@@ -1,38 +1,60 @@
 <h1 align="center">Merhaba 👋, Ben Taha Yasin Baş</h1>
-<h3 align="center">💻 Backend & Automation Developer • 🧠 OSINT & Scraping Enthusiast</h3>
+<h3 align="center">🚀 Backend & Automation Developer | 📊 Data Science Enthusiast</h3>
+
+<p align="center">
+  <a href="https://www.linkedin.com/in/tahayasinbas/">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+  </a>
+  <a href="mailto:tahayasinbas@outlook.com">
+    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
+  </a>
+</p>
 
 ---
 
-## ​​​​Hakkımda
-- Bilişim Sistemleri Mühendisliği öğrencisiyim.  
-- Docker, Django, Celery, Redis gibi modern backend ve görev yönetimi teknolojileri ile çalışıyorum.  
-- Web Scraping (Selenium, Scrapy), OSINT araçları ve otomasyon sistemleri üzerine yoğunlaşıyorum.  
-- Masaüstü uygulamalarında C# ve Tkinter ile deneyimliyim.  
-- Makine öğrenmesi konusunda proje yapmadım ancak **sınıflandırma, regresyon ve veri görselleştirme** gibi temel konularda bilgi sahibiyim.  
-- Şu anda dağıtık sistemler ve veri odaklı uygulamaları öğreniyorum.
+## 👨‍💻 Hakkımda
+
+Bilişim Sistemleri Mühendisliği öğrencisiyim. Veri bilimi, otomasyon sistemleri ve backend mimarileri üzerine projeler geliştiriyorum. Özellikle **Django, Celery, Redis** üçlüsü ile ölçeklenebilir sistemler kuruyor; **RAG (Retrieval-Augmented Generation)** ve makine öğrenmesi modelleri ile veriye değer katıyorum.
+
+* 🔭 Şu anda **Dağıtık sistemler, RAG mimarileri ve Veri Odaklı Uygulamalar** üzerine çalışıyorum.
+* ⚙️ **Django, Docker ve n8n** kullanarak uçtan uca otomasyon süreçleri tasarlıyorum.
+* 🕷️ **Web Scraping** (Selenium, Scrapy, Playwright) konusunda ileri düzey deneyime sahibim.
+* 🤖 Makine öğrenmesi alanında **Sınıflandırma (Classification)** ve **Regresyon** modelleri ile akademik projeler üretiyorum.
 
 ---
 
-## Kullandığım Teknolojiler
+## 🛠️ Kullandığım Teknolojiler
 
-| Backend & Otomasyon     | Web Scraping & OSINT            | Masaüstü & Görüntü İşleme | Altyapı & Araçlar         |
-|-------------------------|--------------------------------|----------------------------|---------------------------|
-| Docker, Django, Celery, Redis | Selenium, Scrapy, OSINT frameworks | C#, Tkinter, Görsel algoritmalar | Git, Linux           |
+| Alan | Teknolojiler |
+| :--- | :--- |
+| **Backend & Otomasyon** | Django, ASP.NET Core, Celery, Redis, Docker, n8n, RESTful APIs |
+| **Veri Bilimi & AI** | Python (Pandas, NumPy), Scikit-learn, RAG, LLM Entegrasyonu |
+| **Web Scraping** | Scrapy, Selenium, BeautifulSoup, Playwright |
+| **Veritabanı & Araçlar** | PostgreSQL, SQLite, Git, Linux, Postman |
 
 ---
 
-## Öne Çıkan Projelerim
+## 🚀 Öne Çıkan Projelerim
 
+### 🧠 Yapay Zeka & Veri Bilimi
 | Proje | Açıklama |
-|-------|----------|
-| **Mail-Otomasyonu** | Django + Celery kullanarak, SQL’den Excel rapor üreten ve CRON ile zamanlanmış e-postalar gönderen sistem. |
-| **WebScraping Otomasyon Kontrol Paneli** | Verileri otomatik toplayıp dışa aktaran ve zamanlanabilir bir scraping arayüzü. |
-| **ObsNotBilgilendirmeBotu** | Eğitim sistemi (OBS) üzerinden bilgilendirme yapan bir bot; Python temelli. |
-| **OsintAraci** | OSINT metodlarıyla veri toplama ve analiz etme araç seti. |
-| **Görüntü İşleme Uygulaması** | Bilgisayarlı görü teknikleriyle çalışan Python tabanlı bir uygulama. |
-| **Dijital Oyun Dağıtıcı Platform** | C# ile yazılmış, oyun dağıtım işlevine sahip uygulama/ara yüz. |
+| :--- | :--- |
+| **Veri Kovanı** | Türkçe veri bilimi çalışmaları için sentetik veri üretimi ve RAG tabanlı bilgi erişim platformu. |
+| **Karar Destek Sistemi** | NIH Chest X-rays veri seti ile göğüs hastalıkları tespiti (%86 doğruluk) ve DergiPark makaleleri ile RAG destekli tedavi önerisi sunan sistem. |
+
+### ⚙️ Otomasyon & Backend
+| Proje | Açıklama |
+| :--- | :--- |
+| **[Mail Otomasyonu](https://github.com/tahayasinbas/Mail-Otomasyonu)** | Django, Celery ve Redis mimarisi üzerine kurulu; SQL'den Excel raporları üreten ve zamanlanmış görevleri yöneten kurumsal e-posta sistemi. |
+| **[Web Scraping Panel](https://github.com/tahayasinbas/WebScraping-Otomasyon-Kontrol-Paneli)** | Dockerize edilmiş, scraping botlarını merkezi bir panelden yönetip zamanlamayı sağlayan otomasyon arayüzü. |
+| **ObsNotBilgilendirmeBotu** | Üniversite bilgi sistemi (OBS) üzerinden not takibi yapıp bildirim gönderen Python botu. |
 
 ---
+
+<p align="center">
+<img src="https://github-readme-stats.vercel.app/api?username=tahayasinbas&show_icons=true&theme=dark" alt="Taha Yasin Baş's Github Stats" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=tahayasinbas&layout=compact&theme=dark" alt="Top Langs" />
+</p>
 
 ## Bağlantılarım
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/taha-yasin-baş)  
